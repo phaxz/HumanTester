@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Reaction Time</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+		<script src="reaction.js"></script>
+	</head>
+	<body style="background-color: #a3b8c2;">
+		<div class="cont">
+			<div class="header">
+				<div class="arrow" onclick="(() => {window.location.href='./index.html'})()">
+					Human Tester
+				</div>
+				<div class="arrow" onclick="(() => {window.location.href='./reactionTest.html'})()">
+					Reaction time
+				</div>
+			</div>
+
+			<div id="clickArea" class="playArea click" style="height: 60vh; border-radius: 0;">
+				<div id="waiting" style="display: flex;">
+					<div id="firstClick" style="display: flex;">
+						<h1>Reaction time test!</h1>
+						<h3>Click to begin</h3>
+					</div>
+					<h3>When area turns green, click</h3>
+				</div>
+
+				<div id="missed">
+					<h1>Too early!</h1>
+					<h3>Do not cheat, click only after you see green!</h3>
+					<h3>Click to try again</h3>
+				</div>
+
+				<div id="hit">
+					<h1>Your reaction time:</h1>
+					<div style="display: block;">
+						<span id="reactionTime" style="margin: 1em; font-size: 32px;"></span>
+						<span id="reactionTime" style="margin: 1em; font-size: 32px;">ms</span>
+					</div>
+					<h3>Click to try again</h3>
+				</div>
+
+				<div style="display: flex; margin-top: 10vh; flex-direction: row; justify-content: space-evenly;">
+					Average:
+					<span id="average" style="margin-left: 0.25em; margin-right: 0.25em;">0</span>
+					<span style="margin-left: 0.25em; margin-right: 0.25em;"> ms | </span>
+					<span id="tries" style="margin-left: 0.25em; margin-right: 0.25em;">0</span>
+				</div>
+			</div>
+
+			<div class="infoReaction">
+				<img src="reactionTimes.jpg" />
+
+				<h1>
+					Reaction time
+				</h1>
+
+				<span>
+					For college-age individuals, reaction times to light stimuli have been published as 190 milliseconds, or 0.19 seconds, and to auditory stimuli as 160 milliseconds, or 0.16 seconds. Human reaction times vary according to the type of stimuli, the method of measurement and the particular study's results. A study published by the Journal of Athletic Training in 2010 found that NCAA athletes had a 0.203-second reaction time on average. This test used a falling meter stick as a stimulus. When the results were measured with a computer, they were noticeably slower, with an average reaction time of 0.268 of a second, according to a literature review done by Clemson University researchers. Many repeated trials with each individual in a fairly large test group must be done to produce reliable data. A study published in 1899 by the Journal of the Anthropological Institute determined that humans have a faster reaction time to auditory stimuli as opposed to visual stimuli. The more complex the response individuals have to perform, the slower their reaction time will be, suggesting that a more complex answer requires more cognitive activity and, therefore, an inherently longer reaction time. A test published in 1907 by the Archives of Psychology provided evidence that if a stimulus is stronger, the reaction time will be quicker. Some sexual dimorphism may exist in reaction times, particularly to auditory stimuli, according to a study published in 2011 by PLOS ONE. Beijing Olympic runners were measured for their reaction times, and the results concluded that male runners had an average reaction time of 166 milliseconds, or 0.166 of a second, while female runners had an average of 189 milliseconds, or 0.189 of a second. In this same test, researchers determined that in one out of 1,000 starts, a male and female sprinter could achieve a reaction time of 109 milliseconds and 121 milliseconds respectively.
+				</span>
+			</div>
+
+			<div class="bottom">
+				<span>
+					Human Tester
+				</span>
+				<span>
+					Ivica Dereh, 4.5, Gimnazija Andrije Mohorovičića
+				</span>
+			</div>
+		</div>
+	</body>
+</html>
