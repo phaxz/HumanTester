@@ -7,6 +7,6 @@ Human tester je web aplikacija za testiranje svojih moždanih sposobnosti. Aplik
 Jednostavan test vremena reakcije. Klikom na plavo polje pokreće se timer i nakon nekog vremena polje postaje zeleno, tada se treba kliknuti na njega te se bilježi vrijeme reakcije te se korisniku raluna vrijeme reakcije
 
 
-Testovi koje planiram izraditi:
+## Testovi koje planiram izraditi:
 - Aim test
 - Memmory test
